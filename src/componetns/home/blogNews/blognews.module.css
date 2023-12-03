@@ -1,0 +1,115 @@
+.blognewsContainer{
+    width: 100%;
+    height: 581px;
+    background: rgba(236, 248, 249, 1);
+    position: relative;
+}
+
+.blognewsContent{
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.blognewsTitle h2{
+    font-size: 3.3vw;
+    font-weight: 600;
+    line-height: 58px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.descriptionBlock{
+    width: 330px;
+    height: 248px;
+    background: #fff;
+    position: relative;
+}
+
+.descriptionTexts{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bestDesignBlock{
+    display: flex;
+    align-items: center;
+}
+
+.descriptionTexts span{
+    font-size: 0.80vw;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.descriptionTexts h4{
+    font-size: 1.4vw;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.descriptionTexts button{
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(68, 76, 252, 1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.brand_StrategyText{
+    width: 330px;
+    height: 248px;
+    background: #fff;
+    position: relative;
+}
+
+.brand_StrategyBlock{
+    display: flex;
+    align-items: center;
+}
+
+.brand_DescrText{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.parentFlexBlock{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand_StrategyText span{
+    font-size: 0.80vw;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.brand_StrategyText h4{
+    font-size: 1.4vw;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.brand_StrategyText button{
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(68, 76, 252, 1);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,111 @@
+.aboutContainer{
+    width: 100%;
+    height: 989px;
+    background-color: #fff;
+}
+
+.aboutContent{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aboutTitleBlock h4{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.aboutTitleBlock h2{
+    color: rgba(35, 37, 54, 1);
+    font-weight: 600;
+    font-size: 3.3vw;
+    line-height: 58px;
+}
+
+.aboutTechnologyBlock h3{
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 54px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.aboutTechnologyBlock p{
+    max-width: 574px;
+    font-size: 0.9vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(93, 95, 109, 1);
+}
+
+.imageContainer{
+    width: 85%;
+    margin: auto;
+}
+
+.imageContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.imageContent img{
+    width: 80%;
+} 
+
+
+.companyTeamParent{
+    width: 100%;
+    margin: 50px 0 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyTeamParent_childs{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.companyTeamParent_childs div{
+    display:  flex;
+    flex-direction: column;
+}
+
+.companyTeamParent_childs div img{
+    width: 100%;
+    height: 10px;
+}
+
+.descriptionBlock div span{
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 54px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.descriptionBlock h4{
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.descrAboutUs_Btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    text-indent: 18px;
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(68, 76, 252, 1);
+    cursor: pointer;
+}

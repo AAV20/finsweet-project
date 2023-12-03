@@ -1,0 +1,88 @@
+.ourstoryContainer{
+    width: 100%;
+    height: 368px;
+}
+
+.ourstoryContent{
+   width: 88%;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   justify-content: space-between;
+}
+
+.ourstoryTextBlock h4{
+    font-size: 0.95vw;
+    font-weight: 624px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.ourstoryTextBlock h3{
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 54px;
+    color: rgba(35, 37, 54, 1)
+}
+
+.ourstoryTextBlock p{
+    max-width: 600px;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1)
+}
+
+.companyStoryBlock{
+    width: 50%;
+    height: 368px;
+    background: rgba(255, 211, 175, 0.57);
+    position: relative;
+}
+
+.companyTeamParent_childs{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+.descriptionBlock div span{
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 54px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.descriptionBlock h4{
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.companyTeamParent_childs div{
+    display:  flex;
+    flex-direction: column;
+}
+
+.companyTeamParent_childs div img{
+    width: 100%;
+    height: 10px;
+}
+
+.logoBlock{
+    width: 88%;
+    margin:100px auto;
+    height: 106px;
+    background: rgba(250, 250, 252, 1);
+}
+
+.logoBlockContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

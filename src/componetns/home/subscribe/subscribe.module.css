@@ -1,0 +1,48 @@
+.subscribeContainer{
+    max-width: 1256px;
+    height: 333px;
+    margin: 100px auto;
+    background: rgba(102, 109, 255, 1);
+    position: relative;
+}
+
+.subscribeContent{
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.subscribeContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribeTextBlock h4{
+    font-size: 0.95vw;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.subscribeTextBlock h2{
+    font-size: 2.5vw;
+    line-height: 54px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
+.subscribeInputBlock{
+    width: 50%;
+}
+
+.subscribeInputBlock form label input{
+    width: 30vw;
+    height: 60px;
+    color: rgba(255, 255, 255, 1);
+    text-indent: 20px;
+}

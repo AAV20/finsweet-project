@@ -1,0 +1,40 @@
+.ourteamContainer{
+    width: 100%;
+}
+
+.ourteamContent{
+    width: 84%;
+    margin: auto;
+}
+
+.ourteamTextBlock h4{
+    font-size: 0.95vw;
+    font-weight: 600;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.ourteamTextBlock h3{
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 54px;
+    color: rgba(35, 37, 54, 1)
+}
+
+.ourteamTextBlock p{
+    max-width: 600px;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1)
+}
+
+.teamImageBlock{
+    display: grid;
+    grid-template-columns: repeat(4, 20.8vw);
+    grid-template-rows: repeat(2, 320px);
+}
+
+.companyImageLink:hover::before{
+    width: 0;
+}

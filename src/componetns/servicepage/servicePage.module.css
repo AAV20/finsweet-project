@@ -1,0 +1,91 @@
+.serviceHeaderBlock{
+    width: 100%;
+    height: 574px;
+    background: rgba(255, 230, 210, 1);
+    position: relative;
+}
+
+.serviceHeaderContent{
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.serviceContentflexBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.serviceContent_2 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceLinks, .serviceLink{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 36px;
+    color: rgba(35, 37, 54, 1);
+    padding: 8px;
+}
+
+.serviceLink{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.serviceLink:hover::before{
+    width: 0%;
+
+}
+
+.serviceLinks:hover::before{
+    width: 0%;
+}
+
+.arrRight{
+   margin-top: 5px;
+}
+
+.serviceContent_1 h4{
+    font-weight: 500;
+    font-size: 0.80vw;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.serviceContent_1 h2{
+    font-weight: 600;
+    font-size: 3.3vw;
+    line-height: 58px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.serviceContent_1 p{
+    max-width: 624px;
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.serviceContent_1 button{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    width: 37%;
+    height: 60px;
+    background: linear-gradient(180deg, #444CFC 0%, #444CFC 100%);
+    text-indent: 30px;
+}

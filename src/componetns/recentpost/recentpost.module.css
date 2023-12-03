@@ -1,0 +1,109 @@
+.recentpostContainer{
+    max-width: 1280px;
+    height: 650px;
+    margin: 50px auto;
+}
+
+.recentpostContainer h2{
+    font-weight: 600;
+    font-size: 3.3vw;
+    line-height: 58px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.recentpostContent{
+    width: 100%;
+}
+
+.postBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.postBlock span{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+    position: relative;
+    top: -21px;
+}
+
+.postBlock h5{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.recentpost_1_innerText{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recentpost_1_innerText h4{
+    font-weight: 600;
+    font-size: 1.4vw;
+    line-height: 36px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.recentpost_1{
+    width: 48.7%;
+    height: 248px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.recentpost_2{
+    width: 48.7%;
+    height: 248px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+
+.recentpost_3{
+    width: 48.7%;
+    height: 248px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.recentpost_4{
+    width: 48.7%;
+    height: 248px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.recentpost_5{
+    width: 48.7%;
+    height: 248px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.recentpostFlexBlock{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+}

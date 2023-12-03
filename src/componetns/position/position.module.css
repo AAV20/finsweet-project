@@ -1,0 +1,82 @@
+.positionContainer{
+    max-width: 1280px;
+    background: rgba(236, 248, 249, 1);
+    height: 950px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.positionContent{
+    position: relative;
+    width: 85%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: grid;
+    grid-template-columns: repeat(3, 354px);
+    grid-template-rows: repeat(3, 243px);
+    gap: 15px;
+}
+
+.block_1{
+    background: #fff;
+    position: relative;
+}
+
+
+.block_1_innerText{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% ,-50%);
+}
+
+.block_1_innerText h4{
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 28px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.block_1_innerText span{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.block_1_innerText button{
+    margin-top: 70px;
+    font-size: 1.1vw;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgba(93, 95, 239, 1);
+}
+
+.positionContainer.openCloseBtn{
+    align-items: center;
+}
+
+.positionLink:hover::before{
+    width: 0px;
+}
+
+.positionLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 50px;
+    gap: 5px;
+    line-height: 24px;
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: rgba(93, 95, 239, 1);
+}
+
+.rightArr{
+    margin-top: 5px;
+}

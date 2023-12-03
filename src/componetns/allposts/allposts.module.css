@@ -1,0 +1,152 @@
+.allpostsContainer{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.allpostsContent{
+    width: 85%;
+    margin: auto;
+}
+
+.header{
+    width: 85%;
+    margin: auto;
+}
+
+.header h2{
+    font-weight: 600;
+    font-size: 3.3vw;
+    line-height: 58px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.allposts_1{
+    width: 31.5%;
+    height: 592px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.allposts_1 .images{
+    width: 100%;
+}
+
+.allposts_2{
+    width: 31.5%;
+    height: 592px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.allposts_2 .images{
+    width: 100%;
+}
+
+.allposts_3{
+    width: 31.5%;
+    height: 592px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.allposts_3 .images{
+    width: 100%;
+}
+
+.allposts_4{
+    width: 31.5%;
+    height: 592px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.allposts_4 .images{
+    width: 100%;
+}
+
+.allposts_5{
+    width: 31.5%;
+    height: 592px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.allposts_5 .images{
+    width: 100%;
+}
+
+.allposts_6{
+    width: 31.5%;
+    height: 592px;
+    background: rgba(249, 249, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.allposts_6 .images{
+    width: 100%;
+}
+
+.postBlocks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.postBlocks span{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+    position: relative;
+    top: -21px;
+}
+
+.postBlocks h5{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.allposts_1_innerText{
+    margin-left: 20px;
+}
+
+.allposts_1_innerText h4{
+    font-weight: 600;
+    font-size: 1.4vw;
+    line-height: 36px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.allposts_1_innerText p{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.allpostsFlexBlock{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+}

@@ -1,0 +1,148 @@
+.blogpageContainer{
+    max-width: 1280px;
+    height: 918px;
+    margin: auto;
+}
+
+.blogpageContent{
+    width: 100%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postImage{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.post{
+    margin: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.api_Imaeg_Block img{
+    width: 60%;
+}
+
+.readmoreLink:hover::before{
+    width: 0;
+}
+
+.readmoreLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.css-1xylxj1-MuiTypography-root-MuiLink-root {
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.arrow{
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+
+.blogpageText_Image_Block h4{
+    font-size: 0.95vw;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.blogpageText_Image_Block h2{
+    font-size: 3.3vw;
+    font-weight: 600;
+    line-height: 58px;
+    color: rgba(35, 37, 54, 1)
+}
+
+.blogpageText_Image_Block p{
+    max-width: 600px;
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1)
+}
+
+.readmoreLink{
+    margin-top: 30px;
+    font-size: 1.1vw;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(68, 76, 252, 1)
+}
+
+.postImage span{
+    font-weight: 400;
+    font-size: 1.1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.postImage small{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.posts_block_2{
+    width: 47%;
+    height: 838px;
+    background: rgba(255, 223, 198, 1);
+    position: relative;
+}
+
+.name_Lastname{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.name_Lastname div span{
+    position: relative;
+    top: -28px;
+    font-weight: 500;
+    font-size: 0.95vw;
+    line-height: 20px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.name_Lastname div h5{
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 24px;
+    color: rgba(35, 37, 54, 1);
+}
+
+.posts h4{
+    line-height: 36px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: rgba(35, 37, 54, 1);
+}
+
+.posts_block_2_Content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.name_Lastname img{
+    width:48px;
+    height: 48px;
+}
